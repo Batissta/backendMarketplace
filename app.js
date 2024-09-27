@@ -25,6 +25,6 @@ mongoose
 
 app.on("ok", () => {
   app.listen(process.env.PORT, () => {
-    console.log(`Servidor conectado na porta ${process.env.PORT}!`);
+    console.log(`Servidor conected na porta ${process.env.PORT}!`);
   });
 });
