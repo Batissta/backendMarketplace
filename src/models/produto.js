@@ -6,6 +6,7 @@ const produtoSchema = new mongoose.Schema({
   descricao: { type: String, required: true },
   promocao: { type: Number, default: 0 },
   preco: { type: Number, required: true },
+  imagem: { type: Number, required: true },
   dataLancamento: { type: Date, default: Date.now },
 });
 
